@@ -36,7 +36,7 @@ The JSON input used to create those two images should further highlight the beha
 [0.295972, "o", "t\u001b"]
 ```
 
-The output in the "Before" JSON are fragmented across multiple commands which occur
+The output in this "Before" JSON is fragmented across multiple commands which occur
 fractions of a second apart. This is despite the fact that the originating program issued the
 output as large, single writes.
 
