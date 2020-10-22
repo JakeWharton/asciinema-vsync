@@ -13,7 +13,7 @@ image as it displays a partially-updated output which are not present in the "Af
 
 The JSON input used to create those two images should further highlight the behavior of this tool:
 
-Before:
+**Before:**
 ```json
 {"version": 2, "width": 247, "height": 50, "timestamp": 1603340113, "env": {"SHELL": "/usr/local/bin/bash", "TERM": "xterm-256color"}}
 [0.232306, "o", "Tests: 0 to"]
@@ -40,7 +40,7 @@ The output in the "Before" JSON are fragmented across multiple commands which oc
 fractions of a second apart. This is despite the fact that the originating program issued the
 output as large, single writes.
 
-After:
+**After:**
 ```json
 {"version": 2, "width": 247, "height": 50, "timestamp": 1603340113, "env": {"SHELL": "/usr/local/bin/bash", "TERM": "xterm-256color"}}
 [0.232306,"o","Tests: 0 total\u001b[K\r\nTime:  0s     \u001b[K\r\n"]
