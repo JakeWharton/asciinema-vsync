@@ -1,0 +1,7 @@
+-dontobfuscate
+-allowaccessmodification
+-keepattributes SourceFile, LineNumberTable
+
+-keep class com.jakewharton.asciinema.vsync.-Main {
+	public static void main(java.lang.String[]);
+}
