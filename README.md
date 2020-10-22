@@ -51,6 +51,9 @@ After:
 Once processed with this tool, the outputs which occur close together have been merged. The
 commands are now more reflective of the writes from the original program.
 
+Additionally, SVGs produced by [svg-term](https://github.com/marionebl/svg-term-cli) on the JSON
+output of this tool are significantly smaller than those on the raw JSON.
+
 
 ## Usage
 
