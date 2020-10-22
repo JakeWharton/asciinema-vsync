@@ -34,6 +34,7 @@ The JSON input used to create those two images should further highlight the beha
 [0.29594, "o", "/\u001b[1msignup"]
 [0.295958, "o", ".k"]
 [0.295972, "o", "t\u001b"]
+ ⋮
 ```
 
 The output in this "Before" JSON is fragmented across multiple commands which occur
@@ -46,6 +47,7 @@ output as large, single writes.
 [0.232306,"o","Tests: 0 total\u001b[K\r\nTime:  0s     \u001b[K\r\n"]
 [0.294751,"o","\u001b[F\u001b[F\u001b[33;43m_\u001b[30mRUNS \u001b[39;49m tests/\u001b[1mlogin.kt\u001b[22m          \u001b[K\r\n\u001b[33;43m_\u001b[30mRUNS \u001b[39;49m tests/\u001b[1msignup.kt\u001b[22m         \u001b[K\r\n\u001b[33;43m_\u001b[30mRUNS \u001b[39;49m tests/\u001b[1mforgot-password.kt\u001b[22m\u001b[K\r\n\u001b[33;43m_\u001b[30mRUNS \u001b[39;49m tests/\u001b[1mreset-password.kt\u001b[22m \u001b[K\r\n                               \u001b[K\r\nTests: 4 total                 \u001b[K\r\nTime:  0s                      \u001b[K\r\n"]
 [1.265236,"o","\u001b[F\u001b[F\u001b[F\u001b[F\u001b[F\u001b[F\u001b[F\u001b[33;43m_\u001b[30mRUNS \u001b[39;49m tests/\u001b[1mlogin.kt\u001b[22m          \u001b[K\r\n\u001b[33;43m_\u001b[30mRUNS \u001b[39;49m tests/\u001b[1msignup.kt\u001b[22m         \u001b[K\r\n\u001b[33;43m_\u001b[30mRUNS \u001b[39;49m tests/\u001b[1mforgot-password.kt\u001b[22m\u001b[K\r\n\u001b[33;43m_\u001b[30mRUNS \u001b[39;49m tests/\u001b[1mreset-password.kt\u001b[22m \u001b[K\r\n                               \u001b[K\r\nTests: 4 total                 \u001b[K\r\nTime:  1s                      \u001b[K\r\n"]
+ ⋮
 ```
 
 Once processed with this tool, the outputs which occur close together have been merged. The
