@@ -21,7 +21,7 @@ jobs:
       - uses: gradle/wrapper-validation-action@v1
       - run: ./gradlew build
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v4
         with:
           name: asciinema-vsync.jar
           path: build/asciinema-vsync.jar
