@@ -17,7 +17,7 @@ dependencies {
 	testImplementation 'junit:junit:4.13.2'
 	testImplementation 'com.google.truth:truth:1.4.4'
 
-	r8 'com.android.tools:r8:8.5.35'
+	r8 'com.android.tools:r8:8.7.18'
 }
 
 def fatJarProvider = tasks.register('fatJar', Jar) { task ->
