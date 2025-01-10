@@ -4,6 +4,8 @@ A tool for processing the JSON output of [Asciinema](https://asciinema.org/) in 
 together its captured events (similar to how the vsync pulse is used to batch GUI changes).
 This helps reduce flicker of the final rendering when targeting formats like SVG or GIF.
 
+**DEPRECATED**: Use [synchronized output](https://gist.github.com/christianparpart/d8a62cc1ab659194337d73e399004036) to ensure full frames get treated as atomic changes.
+
 |Before|After|
 |------|-----|
 |<img src="src/test/fixtures/jest/input.svg">|<img src="src/test/fixtures/jest/output.svg">|
